@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #fff;
+    --laranja: #eb9b00;
+    --azul: #002f52;
+    --preto: black;
+    --cinza: grey;
+    --cinza-claro: lightgrey;
+    --azul-degrade: rgba(0, 47, 82, 1);
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefins Sans";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
